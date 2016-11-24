@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:background="@drawable/listbackground"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/ProfileImage"
+        style="@style/ProfileImage"
+        android:src="@drawable/person"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/VacationType"
+        style="@style/VacationType"
+        android:layout_toRightOf="@id/ProfileImage"
+        android:text="VacationType" />
+    <TextView
+        android:id="@+id/Date"
+        style="@style/VacationDate"
+        android:layout_below="@+id/Title"
+        android:layout_toRightOf="@id/ProfileImage"
+        android:text="Date" />
+    <ImageView
+        android:id="@+id/Status"
+        style="@style/VacationStatusImages"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/redcircle" />
+</RelativeLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/empty_tall_divider"
+    android:gravity="center"
+    android:paddingLeft="35dp"
+    android:background="@color/vacationbackground"
+    android:paddingRight="35dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="8dp"
+        android:gravity="left"
+        android:paddingLeft="8dp">
+        <TextView
+            android:id="@+id/LabelEmployee"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:text="@string/employee"
+            style="@style/vac_text"
+            android:gravity="left" />
+        <TextView
+            android:id="@+id/ItemEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee"
+            style="@style/vac_text"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="8dp"
+        android:gravity="left"
+        android:paddingLeft="8dp">
+        <TextView
+            android:id="@+id/LabelType"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            style="@style/vac_text"
+            android:gravity="left" />
+        <TextView
+            android:id="@+id/ItemType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vacation"
+            style="@style/vac_text"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="8dp"
+        android:gravity="left"
+        android:paddingLeft="8dp">
+        <TextView
+            android:id="@+id/LabelApprover"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:text="@string/approver"
+            style="@style/vac_text"
+            android:gravity="fill" />
+        <TextView
+            android:id="@+id/ItemApprover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/approver"
+            style="@style/vac_text"
+            android:gravity="center" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ItemError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/error_color"
+        android:gravity="center"
+        android:text="@string/dateError" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/ItemStartDateBtn"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:text="StartDate" />
+        <Button
+            android:id="@+id/ItemEndDateBtn"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="EndDate" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="8dp"
+        android:gravity="left"
+        android:paddingLeft="8dp">
+        <TextView
+            android:id="@+id/LabelDuration"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:text="@string/duration"
+            style="@style/vac_text"
+            android:gravity="fill" />
+        <TextView
+            android:id="@+id/ItemDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duration"
+            style="@style/vac_text"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="8dp"
+        android:gravity="left"
+        android:paddingLeft="8dp">
+        <TextView
+            android:id="@+id/LabelStatus"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            style="@style/vac_text"
+            android:gravity="fill" />
+        <TextView
+            android:id="@+id/ItemStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            style="@style/vac_text"
+            android:gravity="center" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/LabelAttachment"
+        android:layout_width="@dimen/widthFirstVacationDetail"
+        android:layout_height="wrap_content"
+        android:text="@string/Attachments"
+        style="@style/vac_text"
+        android:gravity="fill" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/ItemPickImageFromGallery"
+            style="@style/blue_button"
+            android:text="@string/pickImgFromGallery"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:layout_alignParentLeft="true" />
+        <Button
+            android:id="@+id/ItemPickImageFromCamera"
+            style="@style/blue_button"
+            android:layout_width="@dimen/widthFirstVacationDetail"
+            android:text="@string/pickImgFromCamera"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/ItemImageView"
+        android:src="@drawable/person"
+        style="@style/ProfileImage" />
+</LinearLayout>

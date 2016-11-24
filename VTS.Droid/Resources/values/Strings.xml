@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">VTS.Droid</string>
+
+    <string name="login">Login</string>
+    <string name="EmailPlaceHolder">E-mail</string>
+    <string name="PasswordPlaceHolder">Password</string>
+    <string name="IncorrectLoginOrPassword">Wrong username or password</string>
+    <string name="EpamConfidential">THIS SYSTEM IS OWNED BY EPAM SYSTEMS. IF YOU ARE NOT AUTHORIZED TO ACCESS THIS SYSTEM, EXIT IMMEDIATELY. UNAUTHORIZED ACCESS TO THIS SYSTEM IS FORBIDDEN BY COMPANY POLICIES, NATIONAL, AND INTERNATIONAL LAWS. UNAUTHORIZED USERS ARE SUBJECT TO CRIMINAL AND CIVIL PENALTIES AS WELL AS COMPANY INITIATED DISCIPLINARY PROCEEDINGS. BY ENTERING THIS SYSTEM YOU ACKNOWLEDGE THAT YOU HAVE AUTHORIZED ACCESS AND APPROPRIATE LEVEL OF PRIVILEGE WITHIN THE SYSTEM.</string> 
+    <string name="vts">VTS</string>
+    <string name="UiActivityAuthenticating">Authenticating\u2026</string>
+    <string name="okButton">OK</string>
+
+    <string name="vacation">Vacation</string>
+    <string name="vacations">Vacations</string>
+    <string name="undefinedException">Undefined exception</string>
+    <string name="uncorrectURI">Server URI is uncorrect</string>
+    <string name="notFoundServer">Server is not found</string>
+
+    <string name="openDrawer">Menu</string>
+    <string name="closeDrawer">Requests</string>
+    <string name="closeDrawerOffline">Requests (Offline)</string>
+
+    <string name="addVacation">Add Request</string>
+
+    <string name="helpOVT">OVT - overtime vacation</string>
+    <string name="helpILL">ILL - sick leave vacation</string>
+    <string name="helpVAC">VAC - regular vacation</string>
+    <string name="helpPOV">POV - leave w/o pay vacation</string>
+    <string name="helpEXV">EXV - exceptional leave vacation</string>
+
+    <string name="startDate">From:</string>
+    <string name="endDate">To:</string>
+    <string name="status">Status:</string>
+    <string name="statusCancelled">Cancelled</string>
+    <string name="statusClosed">Closed</string>
+    <string name="dateError">Start date can not be more than End date.</string>
+    <string name="update">Update</string>
+    <string name="pickImgFromGallery">Gallery</string>
+    <string name="pickImgFromCamera">Camera</string>
+
+    <string name="create">Create</string>
+
+
+    <string name="confirmDelete">Confirm delete</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="type">Type:</string>
+    <string name="employee">Employee:</string>
+    <string name="approver">Approver:</string>
+    <string name="duration">Duration:</string>
+    <string name="comment">Comment:</string>
+    <string name="Attachments">Attachments:</string>
+  
+    <string name="editRequest">Edit Vacation Request</string>
+  <string name="editRequestOffline">Edit Vacation Request (offline)</string>
+
+  <string name="newRequest">New Vacation Request</string>
+  <string name="newRequestOffline">New Vacation Request (offline)</string>
+
+  <string name="submit_button">Submit</string>
+  <string name="confirmation_change">Save changes?</string>
+  <string name="cancel_button">Cancel</string>
+  <string name="ok_button">OK</string>
+
+
+
+
+
+
+
+</resources>

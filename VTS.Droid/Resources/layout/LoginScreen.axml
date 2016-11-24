@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        style="@style/title_vts"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/vts"
+        android:drawableLeft="@drawable/ic"
+        android:id="@+id/title_vts" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:background="@color/logo_background">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:id="@+id/Logo" />
+        <TextView
+            style="@style/error_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="@string/IncorrectLoginOrPassword"
+            android:id="@+id/LoginError" />
+        <EditText
+            style="@style/login_textedit"
+            android:drawableRight="@drawable/mail"
+            android:id="@+id/LoginUsername"
+            android:hint="@string/EmailPlaceHolder" />
+        <EditText
+            style="@style/login_textedit"
+            android:drawableRight="@drawable/lock"
+            android:id="@+id/LoginPassword"
+            android:inputType="textPassword"
+            android:hint="@string/PasswordPlaceHolder" />
+        <Button
+            style="@style/login_button"
+            android:text="@string/login"
+            android:id="@+id/LoginBtn" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EpamConfidential"
+            android:text="@string/EpamConfidential"
+            android:id="@+id/EpamConfidential" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,103 @@
+key	Russian	English
+Login	ЛОГИН	LOGIN
+EmailPlaceHolder	Е-мейл	E-mail
+PasswordPlaceHolder	Пароль	Password
+EpamConfidential	ЕСЛИ У ВАС НЕТ СООТВЕТСТВУЮЩИХ ПРИВИЛЕГИЙ НЕМЕДЛЕННО ЗАКРОЙТЕ ПРИЛОЖЕНИЕ. НЕАВТОРИЗОВАННЫЙ ДОСТУП К ПРИЛОЖЕНИЮ ЗАПРЕЩЕН ВНУТРЕННИМ РАСПОРЯДКОМ КОМПАНИИ, НАЦИОНАЛЬНЫМИ И МЕЖДУНАРОДНЫМИ ЗАКОНАМИ. НЕАВТОРИЗОВАННЫЙ ДОСТУП СЛУЖИТ ПОВОДОМ ДЛЯ АДМИНИСТРАТИВНОГО И УГОЛОВНОГО ПРЕСЛЕДОВАНИЯ В СООТВЕТСТВИИ С ПРОЦЕДУРАМИ РАЗРАБОТАННЫМИ В КОМПАНИИ. ПОЛУЧАЯ ДОСТУП В СИСТЕМУ, ВЫ ПОДТВЕРЖДАЕТЕ НАЛИЧИЕ СООТВЕТСТВУЮЩИХ ПРАВ И РАЗРЕШЕНИЙ.	THIS SYSTEM IS OWNED BY SYSTEMS. IF YOU ARE NOT AUTHORIZED TO ACCESS THIS SYSTEM, EXIT IMMEDIATELY. UNAUTHORIZED ACCESS TO THIS SYSTEM IS FORBIDDEN BY COMPANY POLICIES, NATIONAL, AND INTERNATIONAL LAWS. UNAUTHORIZED USERS ARE SUBJECT TO CRIMINAL AND CIVIL PENALTIES AS WELL AS COMPANY INITIATED DISCIPLINARY PROCEEDINGS. BY ENTERING THIS SYSTEM YOU ACKNOWLEDGE THAT YOU HAVE AUTHORIZED ACCESS AND APPROPRIATE LEVEL OF PRIVILEGE WITHIN THE SYSTEM.
+RemainingBallance	Оставшийся баланс	Remaining Ballance
+VacationDays	Дней отпуска	Vacation Days
+SickDays	Дней по болезни	Sick Days
+Overtime	Переработка	Overtime
+shortHour	ч	h
+shortDay	д	d
+AddVacation	Взять отпуск	Add Vacation
+SickToday	Сегодня болен	Sick Today
+DetailedBallance	Детальный баланс	Detailed Ballance
+IncorrectLoginOrPassword	Неверное имя пользователя или пароль	Unknown user name or bad password
+SickVacation	Болен	Sick
+RegularVacation	Отпуск	Vacation
+Duration	Продолжит.:	Duration:
+Comments	Коментарии	Comments
+Attachments	Прикрепить:	Attachments:
+NoPMObjections	Проектный/Деливери менеджер не возражает	No objections from my project/delivery managers
+EmployeeName	Сотрудник:	Employee:
+SaveAsDraft	В Черновики	Save as draft
+SubmitForRequest	Отправить	Submit for request
+NewVacationRequest	Запрос на отпуск	New Vacation Request
+NewVacationRequestOffline	Запрос на отпуск(офлайн)	New Vacation Request(offline)
+LeaveWOPay	Не опл. отпуск	Leave w/o pay
+ExceptionalLeave	Искл. отпуск	Exceptional leave
+TabRegularVacation	Рег.	Reg.
+TabSickVacation	Больной	Sick
+TabOvertimeVacation	Оврт.	Otm.
+TabLeaveWOPay	в/о отплата	w/o pay
+TabExceptionalLeave	искл.	expt.
+VTS	Система Учета Отпусков	VTS
+OffLine	Режим офлайн	Offline Mode
+Attention	Внимание	Attention
+EmailEmpty	Введите адрес электронной почты 	Please enter your email
+PasswordEmpty	Введите пароль	Please enter your password.
+NotSavedDataOffline	Нет сохраненных данных для офлайн работы	Not saved data for offline mode
+Illness	Болен	Illness
+Overtime (OVT)	Переработка  (OVT)	Overtime (OVT)
+Illness (ILL)	Болен (ILL)	Illness (ILL)
+Regular (VAC)	Отпуск (VAC)	Regular (VAC)
+EXCEPTIONAL (EXV)	Искл. отпуск (EXV)	EXCEPTIONAL (EXV)
+Without pay (POV)	Не опл. отпуск (POV)	Without pay (POV)
+days	дней	days
+jan	Янв	Jan
+feb	Фев	Feb
+mar	Мар	Mar
+apr	Апр	Apr
+may	Май	May
+jun	Июн	Jun
+jul	Июл	Jul
+aug	Авг	Aug
+sep	Сен	Sep
+oct	Окт	Oct
+nov	Ноя	Nov
+dec	Дек	Dec
+day	день	day
+day24	дня	days
+uncorrectURI	Некорректный URI	Uncorrect URI
+undefinedException	Неопределенная ошибка	Undefined Exception
+language	язык	language
+ru	Русский	Russian
+en	Английский	English
+error	Ошибка	Error
+notFoundServer	Не найден сервер	Not found Server
+failedToAuthenticate	Ошибка авторизации	Failed To Authenticate
+notFound	Не найден	Not found
+UiActivityAuthenticating	Авторизация...	Authenticating...
+NotReachableHost	Сервер недоступен. Офлайн режим.	Host is not Reachable. Offline Mode.
+Requests	Запросы	Requests
+Menu	Меню	Menu
+startDate	С:	From:
+endDate	По:	To:
+Type	Тип:	Type:
+Approver	Утверждено:	Approver:
+status	Статус:	Status:
+camera	Камера	Camera
+gallery	Галерея	Gallery
+dateError	Конечная дата не должна быть раньше начальной	Start date can not be more than End date.
+confirmationChange	Сохранить изменения?	Save changes?
+cancel_button	Отмена	Cancel
+ok_button	Отправить	Submit
+sending	Отправка...	Sending...
+confirmDelete	Подтверждение удаления	Confirm delete
+delButton	Удалить	Delete
+MethodNotAllowed	Метод не поддерживается	Method Not Allowed
+dateApproved	Только для чтения!	Read Only!
+Approved	Одобрено	Approved
+Rejected	Отказано	Rejected
+Closed	Закрыто	Closed
+Cancelled	Отменено	Cancelled
+wait	Ждите...	Wait...
+editRequest	Редакт. запроса	Edit Vacation Request
+editRequestOffline	Редакт. запроса (офлайн)	Edit Vacation Request (offline) 
+done	Отправить	Done
+trash	Удалить	Delete
+WaitingForApproval	Отправлен	Waiting For Approval
+createVacationRequest	Создание запроса	Create Vacation Request
+createVacationRequestOffline	(офлайн) Создание запроса	(offline)Create Vacation Request
+Draft	Новый	New
+Exit	Выход	Exit

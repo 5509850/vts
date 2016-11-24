@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- Default -->
+  <dimen name="vacDetailsTextSize">20dp</dimen>
+  <dimen name="vacDetailsTextSizeSmall">14dp</dimen>
+              
+  <dimen name="paddingVacationDetailsmall">20dp</dimen>
+  <dimen name="paddingVacationDetail">40dp</dimen>
+  <dimen name="widthFirstVacationDetail">140dp</dimen>
+  <dimen name="hightVacationDetail">2dp</dimen>
+  <dimen name="text_size_title_actionbar">20dp</dimen>  
+
+</resources>
